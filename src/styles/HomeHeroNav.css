@@ -4,9 +4,14 @@
 }
 
 .home-header-nav {
-  width: 400px;
+  width: 250px;
+  margin-right: 55px;
 }
 
 .nav-link {
-  
+  color: black;
+  width: 75px;
+  text-align: center;
+  font-size: 15px;
+  padding: 8px 12px;
 }
