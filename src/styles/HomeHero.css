@@ -1,0 +1,28 @@
+.home-hero-section {
+  margin-left: 30px;
+  height: 500px;
+}
+
+.home-hero-title {
+  margin-top: 100px;
+  margin-bottom: 0;
+  width: 750px;
+}
+
+.home-hero-ctas {
+  width: 450px;
+  margin-top: 50px;
+}
+
+.hero-btn {
+  width: 175px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 14px 0px;
+}
+
+.find-work-title {
+  margin-top: 200px;
+  word-spacing: 15px;
+}
