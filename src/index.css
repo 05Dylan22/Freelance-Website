@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+.txt-center {
+  text-align: center;
+}
+
 .main-title {
   font-size: 54px;
   color: var(--primary-color);
@@ -44,6 +48,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: start;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
 }
 
 .brdr-shdow {

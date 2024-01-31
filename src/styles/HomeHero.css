@@ -1,6 +1,6 @@
 .home-hero-section {
+  height: 475px;
   margin-left: 30px;
-  height: 500px;
 }
 
 .home-hero-title {
@@ -23,6 +23,15 @@
 }
 
 .find-work-title {
-  margin-top: 200px;
   word-spacing: 15px;
+  margin-bottom: 0;
+}
+
+.hero-img {
+  z-index: -10;
+  position: absolute;
+  right: 0;
+  top: -20px;
+  height: 100%;
+  width: auto;
 }
