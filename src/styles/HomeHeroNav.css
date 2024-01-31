@@ -1,17 +1,81 @@
-.home-header {
-  height: 75px;
-  position: sticky;
+.temp-logo {
+  color: var(--primary-color);
+  margin: 0;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.home-header-nav {
-  width: 250px;
-  margin-right: 55px;
+.home-header {
+  position: sticky;
 }
 
 .nav-link {
   color: black;
-  width: 75px;
   text-align: center;
-  font-size: 15px;
-  padding: 8px 12px;
+}
+
+@media screen and (min-width: 270px) {
+  .temp-logo {
+    font-size: 18px;
+    margin-left: 12px;
+  }
+
+  .home-header {
+    height: 65px;
+  }
+
+  .home-header-nav {
+    width: 155px;
+  }
+
+  .nav-link {
+    width: 65px;
+    font-size: 14px;
+    padding: 6px 4px;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .home-header-nav {
+    width: 175px;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .home-header-nav {
+    width: 200px;
+  }
+
+  .nav-link {
+    width: 70px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .temp-logo {
+    font-size: 22px;
+    margin-left: 15px;
+  }
+
+  .nav-link {
+    width: 75px;
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .temp-logo {
+    font-size: 26px;
+    margin-left: 30px;
+  }
+
+  .home-header {
+    height: 75px;
+  }
+
+  .home-header-nav {
+    width: 250px;
+    margin-right: 55px;
+  }
 }
