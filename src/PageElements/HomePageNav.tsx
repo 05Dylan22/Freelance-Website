@@ -1,4 +1,4 @@
-import "../styles/HomeHeroNav.css"
+import "../styles/HomePageNav.css"
 import { Link } from "react-router-dom"
 
 const HomePageNav = () => {
