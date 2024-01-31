@@ -1,8 +1,10 @@
+import HomePageNav from "../PageElements/HomePageNav"
+
 const HomePage = () => {
   return (
-    <div>
-
-    </div>
+    <>
+      <HomePageNav/>
+    </>
   )
 }
 
