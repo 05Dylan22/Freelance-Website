@@ -43,9 +43,7 @@
   .home-header-nav {
     width: 175px;
   }
-}
 
-@media screen and (min-width: 300px) {
   .home-header-nav {
     width: 200px;
   }
