@@ -92,3 +92,15 @@ body::-webkit-scrollbar {
   border-color: var(--primary-color);
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
 }
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
