@@ -1,0 +1,22 @@
+.temp-styling {
+  border: 2px solid black;
+  border-radius: 4px;
+  height: 250px;
+  width: 80vw;
+  margin: auto;
+  margin-top: 55px;
+  transform: translateY(25px);
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

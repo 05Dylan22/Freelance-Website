@@ -1,6 +1,8 @@
 import "../styles/HomeHero.css"
 import { Link } from "react-router-dom"
 
+//RESPONSIVE DESIGN NEEDS UPDATED FOR 1225 MAYBE SET FINAL TO 1300 OR SOMETHING
+
 const HomeHero = () => {
   return (
     <>
