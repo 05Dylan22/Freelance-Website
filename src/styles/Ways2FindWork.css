@@ -1,10 +1,72 @@
-.temp-styling {
-  border: 2px solid black;
-  border-radius: 4px;
-  height: 250px;
-  width: 80vw;
+.ways-to-find-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  width: 65vw;
   margin: auto;
-  margin-top: 55px;
-  transform: translateY(25px);
-  opacity: 0;
+  margin-bottom: 25px;
+  margin-top: 45px;
+}
+
+.way-to-find-work {
+  border: none;
+  border-radius: 25px;
+  height: 100%;
+  width: 265px;
+  background-color: var(--suplement-color);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.way-to-find-work > p {
+  width: 90%;
+  margin: auto;
+  line-height: 19px;
+  margin-top: 40px;
+}
+
+.way-to-find-work > p:first-child {
+  width: 100%;
+  margin: 24px 0px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 270px) {
+  .ways-to-find-container {
+    display: grid;
+    width: 95vw;
+    height: 600px;
+    justify-content: center;
+  }
+
+  .way-to-find-work {
+    border-radius: 25px;
+    height: 165px;
+    width: 225px;
+    opacity: 0;
+    transform: translateY(25px);
+    background-color: var(--suplement-color);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  }
+
+  .way-to-find-work > p:first-child {
+    margin-bottom: 15px;
+  }
+
+  .way-to-find-work > p {
+    width: 90%;
+    margin: auto;
+    line-height: 19px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .ways-to-find-container {
+    opacity: 0;
+    transform: translateY(25px);
+  }
 }
