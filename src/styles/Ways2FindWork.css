@@ -101,14 +101,68 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 515px) {
+  .way-to-find-work:first-child, .way-to-find-work:nth-of-type(3) {
+    margin-left: -50%;
+  }
+
+  .way-to-find-work:nth-of-type(2) {
+    margin-left: 50%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .ways-to-find-container {
+    height: fit-content;
+  }
+
+  .way-to-find-work:first-child, .way-to-find-work:nth-of-type(3) {
+    margin-left: -55%;
+  }
+
+  .way-to-find-work:nth-of-type(2) {
+    margin-left: 55%;
+  }
+}
+
+@media screen and (min-width: 700px) {
   .ways-to-find-container {
     display: flex;
-    margin-top: 45px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .way-to-find-work:nth-of-type(2), .way-to-find-work:first-child, .way-to-find-work:nth-of-type(3) {
+    margin: 0px;
   }
 
   .way-to-find-work {
-    height: 100%;
+    width: 215px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .ways-to-find-container {
+    justify-content: space-around;
+  }
+
+  .way-to-find-work {
+    width: 225px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .ways-to-find-container {
+    display: flex;
+    margin: auto;
+    margin-top: 45px;
+    max-width: 1100px;
+  }
+
+  .way-to-find-work {
     width: 265px;
+    height: 205px;
   }
 }
