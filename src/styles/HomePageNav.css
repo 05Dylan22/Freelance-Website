@@ -1,7 +1,5 @@
-.temp-logo {
-  color: var(--primary-color);
-  margin: 0;
-  font-weight: bold;
+.logo {
+  height: 250%;
   cursor: pointer;
 }
 
@@ -10,6 +8,7 @@
   top: 0;
   width: 100vw;
   z-index: 100;
+  overflow: hidden;
   background-color: white;
 }
 
