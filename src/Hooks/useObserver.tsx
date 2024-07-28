@@ -1,4 +1,5 @@
 const useObserver = (elements: Array<HTMLElement>) => {
+  //CREATE CUSTOM THRESHOLD AND ANIMATION ARGUMENTS
   const observer = new IntersectionObserver((entry) => {
     entry.forEach(entry => {
       if (!entry.isIntersecting) return

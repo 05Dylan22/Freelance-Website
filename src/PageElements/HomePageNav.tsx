@@ -8,7 +8,7 @@ const HomePageNav = () => {
       <img className="logo" src={Logo} alt="Company Logo" />
       <nav className="a-flex home-header-nav">
         <Link className="link-no-style nav-link btm-brdr" to={"/"}>Log In</Link>
-        <Link className="link-no-style nav-link brdr-shdow"  to={"/"}>Find Work</Link>
+        <Link className="link-no-style nav-link brdr-shdow"  to={"/signup"}>Sign Up</Link>
       </nav>
     </header>
   )
